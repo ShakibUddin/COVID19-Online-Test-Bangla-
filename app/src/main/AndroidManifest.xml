@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.covid19.covid19onlinetest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ResultDanger"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultSafe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultReady"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Load"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Outsider"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cold"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cough"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Breathing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fever"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Age"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
